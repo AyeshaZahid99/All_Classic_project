@@ -277,3 +277,13 @@ padding: 20px;
 .card-deck{
 border-color:rgb(223, 19, 19)  !important;
 }
+
+/
+@media screen and (max-width: 600px){
+    .navbar navbar-expand-lg navbar-light bg-light{
+        position: relative;
+    }
+    .navbar-brand{
+        position: relative;
+    }
+}
