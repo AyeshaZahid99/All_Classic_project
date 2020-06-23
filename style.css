@@ -57,9 +57,9 @@ body{
         color: #fff;
         background: rgb(223, 19, 19);
         padding: 20px;
-        width: 90%;
+        width: 70%;
         margin: 1% 5%;
-        border-radius: 0px 50px;
+        border-radius: 0px 40px;
     }
     
     .head_01{
@@ -81,16 +81,18 @@ body{
             text-align: center;
         }
         .button_css{
-            text-decoration:none  !important;
-            border: none !important;
-            color:#fff !important;
-            background-color:rgb(223, 19, 19) ;
-            border-radius: 10% !important;
+    
+            border: solid !important;
+            border-color:rgb(223, 19, 19) ;
+
+            color: white !important;
+            background-color: rgb(223, 19, 19);
+            border-radius: 40% !important;
             text-transform: uppercase;
             font-style: italic;
             text-decoration: solid;
             font-size: 40px;
-
+text-align: center;
         }
     .card-text{
         font-size: larger;
@@ -124,6 +126,8 @@ body{
     text-decoration: none;
     border: none;
     border-radius: 10px;
+    background-color:rgb(223, 19, 19) ;
+    text-decoration-color: none;
 }
 .card-title{
     color:rgb(223, 19, 19);
@@ -160,11 +164,11 @@ h3{
     padding-right: 10px;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(158, 121, 152);
+    color: rgb(223, 19, 19);
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #fff;
-    background: rgb(158, 121, 152);
+    background: rgb(223, 19, 19);
     border-radius: 5px;
 }
 .segment-two ul{
@@ -191,7 +195,7 @@ text-transform: capitalize;
     padding-right: 10px;
 }
 .segment-three a{
-    background: #9e7998;
+    background: rgb(223, 19, 19);
     width: 50px;
     height: 50px;
     display: inline-block;
@@ -213,7 +217,7 @@ text-transform: capitalize;
     font-size: 12px;
 }
 .copyright-ayesha{
-    color: #9e7998;
+    color: rgb(223, 19, 19);
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -269,4 +273,7 @@ padding: 20px;
     font-weight: bolder;
     font-style: italic;
     font-family:;
+}
+.card-deck{
+border-color:rgb(223, 19, 19)  !important;
 }
